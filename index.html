@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, shrink-to-fit=no">
+    <meta name="author" content="Perica Paunovic">
+    <title>Bootstrap freelanser</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    
+<!--  Navigation  -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+      <div class="container">
+          <a class="navbar-brand text-uppercase" href="#">Start bootstrap</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link text-uppercase" href="#portfolio">Portfolio <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-uppercase" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-uppercase" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+      </div>
+    </nav>
+    
+<!-- Header - Jumbotron   -->
+    <div class="header jumbotron text-center text-white">
+      <div class="container">
+         <img src="img/avataaars.svg" alt="">
+         <h1 class="display-3 text-uppercase">Start bootstrap</h1>
+         <hr class="my-4"> <i class="fas fa-star"></i> <hr class="my-4">
+        <h5>Graphic Artist - Web Designer - Illustrator</h5>
+      </div>
+    </div>
+    
+<!-- POrtfolio   -->
+    <section id="portfolio" class="py-5 text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="headings">Portfolio</h2>
+                    <hr class="my-4 mx-auto"> <i class="fas fa-star"></i> <hr class="my-4 mx-auto">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <img src="img/cabin.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <img src="img/cake.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <img src="img/circus.png" alt="" class="img-fluid">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <img src="img/game.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <img src="img/safe.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <img src="img/submarine.png" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+<!--  About  -->
+    <section id="about" class="text-white">
+       <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2 class="headings">About</h2>
+                    <hr class="my-4 mx-auto"> <i class="fas fa-star"></i> <hr class="my-4 mx-auto">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
+                </div>
+                <div class="col-md-6">
+                    <p>You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <button type="button"><i class="fas fa-download"></i>&nbsp; Free download</button>
+                </div>
+            </div>
+       </div>
+    </section>
+    
+<!--  Contact  -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2 class="headings">Contact me</h2>
+                    <hr class="my-4 mx-auto"> <i class="fas fa-star"></i> <hr class="my-4 mx-auto">
+                </div>
+            </div>
+            <div class="row">
+               <div class="col-md-2"></div>
+                <div class="col-md-8">
+                    <form>
+                     <div class="form-group">
+                        <input type="text" placeholder="Name" class="form-control" id="exampleInputName" aria-describedby="emailHelp">
+                      </div>
+                      <div class="form-group">
+                        <input type="email" placeholder="Email address" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      </div>
+                      <div class="form-group">
+                        <input type="text" placeholder="Phone number" class="form-control" id="exampleInputPhone" aria-describedby="emailHelp">
+                      </div>
+                      <div class="form-group">
+                        <textarea class="form-control" placeholder="Message" id="exampleInputArea" cols="30" rows="4"></textarea>
+                      </div>
+                      <button type="button" class="btn btn-success">Send</button>
+                    </form>
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+        </div>
+    </section>
+    
+<!-- Footer   -->
+    <footer class="py-5">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <h3 class="text-uppercase">Location</h3>
+                    <p>2215 John Daniel Drive <br> Clark, MO 65243 </p>
+                </div>
+                <div class="col-md-4">
+                    <h3 class="text-uppercase">Around the web</h3>
+                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                    <a href=""><i class="fas fa-basketball-ball"></i></a>
+                </div>
+                <div class="col-md-4">
+                    <h3>About Freelancer</h3>
+                    <p>Freelance is a free to use, MIT <br> licensed Bootstrap theme created by 
+                    <br><a href="">Start Bootstrap</a>. </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+<!--  Bottom bar  -->
+    <section class="bottomBar py-4">
+        <p>Copyright &copy; Your website 2021</p>
+    </section>
+<!--  JavaScript  -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+
+</body>
+</html>

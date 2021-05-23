@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+:root {
+    --darkGray: #2C3E50;
+    --lightGray: #ccd0d4;
+    --lightGreen: #1ABC9C;
+    --darkGreen: #1a967e;
+    --white: #fff;
+    --footerColor: #2C3E50;
+    --black: #000;
+    --transition: .4s ease-in-out;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.6;
+    color: var(--darkGray);
+}
+
+hr {
+    background-color: var(--white);
+    width: 100px;
+    border: none;
+    height: 4px;
+    display: inline-block;
+}
+
+.fa-star {
+    font-size: 2rem;
+    position: relative;
+    top: -15px;
+    margin: 0 10px;
+}
+
+.headings {
+    text-align: center;
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+/**************
+Navbar
+**************/
+.navbar {
+    background-color: var(--darkGray) !important;
+}
+
+.navbar .navbar-brand {
+    color: var(--white);
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.navbar .navbar-brand:hover {
+    color: var(--white);
+}
+
+.navbar .navbar-nav .nav-item {
+    margin-left: 20px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+    color: var(--white);
+    font-weight: 700 !important;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: var(--darkGreen);
+    transition: var(--transition);
+}
+
+.navbar .navbar-toggler {
+    background-color: var(--lightGreen);
+}
+
+/******************
+Header - JUmbotron
+*******************/
+.header {
+    background-color: var(--lightGreen) !important;
+    padding: 130px 0;
+}
+
+.header img {
+    width: 22%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-weight: 700;
+}
+
+.header h5 {
+    font-size: 1.5rem;
+}
+
+/**************
+Portfolio
+**************/
+#portfolio hr {
+    background-color: var(--darkGray);
+}
+
+#portfolio img {
+    border-radius: 10px;
+}
+
+#portfolio .col-md-4 {
+    padding: 25px;
+}
+
+/**************
+About
+**************/
+#about {
+    background-color: var(--lightGreen);
+    padding: 100px 0;
+}
+
+#about .col-md-6:nth-child(1) {
+    padding-left: 150px;
+}
+
+#about .col-md-6:nth-child(2) {
+    padding-right: 150px;
+}
+
+#about .col-md-6 p {
+    font-size: 1.2rem;
+}
+
+#about button {
+    background-color: transparent;
+    color: var(--white);
+    border: 2px solid var(--white);
+    padding: 15px 40px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+}
+
+#about button:hover {
+    color: var(--black);
+    background-color: var(--white);
+    transition: var(--transition);
+    cursor: pointer;
+    border-color: var(--white);
+}
+
+/**************
+Contact
+**************/
+
+#contact hr {
+    background-color: var(--darkGray);
+}
+
+#contact input,
+#contact textarea {
+    padding: 20px 20px 50px 20px;
+    font-size: 1.4rem;
+    border: none;
+    border-bottom: 1px solid var(--lightGray);
+}
+
+#contact .btn-success {
+    background-color: var(--lightGreen);
+    padding: 20px 30px;
+    font-size: 1.1rem;
+    border-radius: 10px;
+}
+
+#contact .btn-success:hover {
+    background-color: var(--darkGreen);
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+/**************
+Footer
+**************/
+footer {
+    background-color: var(--footerColor);
+    color: var(--white);
+}
+
+footer h3 {
+    margin-bottom: 30px;
+}
+
+footer p {
+    font-size: 1.1rem;
+}
+
+footer .col-md-4:nth-child(2) a {
+    padding: 11px 15px;
+    border: 2px solid var(--white);
+    border-radius: 50%;
+    margin: 0 5px;
+    color: var(--white);
+}
+
+footer .col-md-4:nth-child(2) a:hover {
+    background-color: var(--white);
+    color: var(--footerColor);
+    transition: var(--transition);
+}
+
+footer i {
+    font-size: 1.2rem;
+}
+
+footer .col-md-4:nth-child(3) a {
+    color: var(--lightGreen);
+}
+
+footer .col-md-4:nth-child(3) a:hover {
+    color: var(--darkGreen);
+}
+
+/**************
+Bottom bar
+**************/
+.bottomBar {
+    background-color: var(--black);
+    color: var(--white);
+    text-align: center;
+}
+
+/**************
+Responsive
+**************/
+@media(max-width:768px) {
+    #about .col-md-6:nth-child(1) {
+        padding-left: 30px;
+    }
+
+    #about .col-md-6:nth-child(2) {
+        padding-right: 20px;
+        padding-left: 30px;
+    }
+
+    footer .col-md-4:nth-child(1),
+    footer .col-md-4:nth-child(2) {
+        margin-bottom: 30px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
